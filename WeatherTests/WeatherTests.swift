@@ -30,7 +30,7 @@ final class WeatherTests: XCTestCase {
     
     func testParseValidJson() {
         let data = "{\"weather\":[{\"description\":\"mist\"}],\"main\":{\"temp\":268.83,\"humidity\":92}}".data(using: String.Encoding.utf8)!
-        guard case let .Success(conditions) = service.weather(forCity: "London", fromJsonData: data) else {
+        guard case let .Success(conditions) = service.weather(forCity: "Dallas", fromJsonData: data) else {
             XCTFail("Valid JSON was not parsed successfully")
             return
         }
