@@ -1,7 +1,7 @@
 # Weather Project 
 
 Runs on iOS16.0 and above 
-- No Coco pods needed
+- Need Cocopods for Almofire
 - Few basic Unit test available  
 - Weather Data from `https://api.openweathermap.org`
 
